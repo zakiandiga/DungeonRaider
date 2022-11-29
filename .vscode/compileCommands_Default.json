@@ -1,0 +1,67 @@
+[
+	{
+		"file": "D:\\UnrealProject\\DungeonRaider\\DungeonRaider\\Source\\DungeonRaider\\DungeonRaider.Build.cs",
+		"command": "\"C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\cl.exe\" @D:\\UnrealProject\\DungeonRaider\\DungeonRaider\\.vscode\\compileCommands_Default\\DungeonRaider.211.rsp",
+		"directory": "D:\\Unreal\\UE_5.0\\Engine\\Source"
+	},
+	{
+		"file": "D:\\UnrealProject\\DungeonRaider\\DungeonRaider\\Source\\DungeonRaider\\DungeonRaider.cpp",
+		"command": "\"C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\cl.exe\" @D:\\UnrealProject\\DungeonRaider\\DungeonRaider\\.vscode\\compileCommands_Default\\DungeonRaider.211.rsp",
+		"directory": "D:\\Unreal\\UE_5.0\\Engine\\Source"
+	},
+	{
+		"file": "D:\\UnrealProject\\DungeonRaider\\DungeonRaider\\Source\\DungeonRaider\\DungeonRaider.h",
+		"command": "\"C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\cl.exe\" @D:\\UnrealProject\\DungeonRaider\\DungeonRaider\\.vscode\\compileCommands_Default\\DungeonRaider.211.rsp",
+		"directory": "D:\\Unreal\\UE_5.0\\Engine\\Source"
+	},
+	{
+		"file": "D:\\UnrealProject\\DungeonRaider\\DungeonRaider\\Source\\DungeonRaider\\DungeonRaiderCharacter.cpp",
+		"command": "\"C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\cl.exe\" @D:\\UnrealProject\\DungeonRaider\\DungeonRaider\\.vscode\\compileCommands_Default\\DungeonRaider.211.rsp",
+		"directory": "D:\\Unreal\\UE_5.0\\Engine\\Source"
+	},
+	{
+		"file": "D:\\UnrealProject\\DungeonRaider\\DungeonRaider\\Source\\DungeonRaider\\DungeonRaiderCharacter.h",
+		"command": "\"C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\cl.exe\" @D:\\UnrealProject\\DungeonRaider\\DungeonRaider\\.vscode\\compileCommands_Default\\DungeonRaider.211.rsp",
+		"directory": "D:\\Unreal\\UE_5.0\\Engine\\Source"
+	},
+	{
+		"file": "D:\\UnrealProject\\DungeonRaider\\DungeonRaider\\Source\\DungeonRaider\\DungeonRaiderGameMode.cpp",
+		"command": "\"C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\cl.exe\" @D:\\UnrealProject\\DungeonRaider\\DungeonRaider\\.vscode\\compileCommands_Default\\DungeonRaider.211.rsp",
+		"directory": "D:\\Unreal\\UE_5.0\\Engine\\Source"
+	},
+	{
+		"file": "D:\\UnrealProject\\DungeonRaider\\DungeonRaider\\Source\\DungeonRaider\\DungeonRaiderGameMode.h",
+		"command": "\"C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\cl.exe\" @D:\\UnrealProject\\DungeonRaider\\DungeonRaider\\.vscode\\compileCommands_Default\\DungeonRaider.211.rsp",
+		"directory": "D:\\Unreal\\UE_5.0\\Engine\\Source"
+	},
+	{
+		"file": "D:\\UnrealProject\\DungeonRaider\\DungeonRaider\\Source\\DungeonRaider\\DungeonRaiderProjectile.cpp",
+		"command": "\"C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\cl.exe\" @D:\\UnrealProject\\DungeonRaider\\DungeonRaider\\.vscode\\compileCommands_Default\\DungeonRaider.211.rsp",
+		"directory": "D:\\Unreal\\UE_5.0\\Engine\\Source"
+	},
+	{
+		"file": "D:\\UnrealProject\\DungeonRaider\\DungeonRaider\\Source\\DungeonRaider\\DungeonRaiderProjectile.h",
+		"command": "\"C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\cl.exe\" @D:\\UnrealProject\\DungeonRaider\\DungeonRaider\\.vscode\\compileCommands_Default\\DungeonRaider.211.rsp",
+		"directory": "D:\\Unreal\\UE_5.0\\Engine\\Source"
+	},
+	{
+		"file": "D:\\UnrealProject\\DungeonRaider\\DungeonRaider\\Source\\DungeonRaider\\TP_PickUpComponent.cpp",
+		"command": "\"C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\cl.exe\" @D:\\UnrealProject\\DungeonRaider\\DungeonRaider\\.vscode\\compileCommands_Default\\DungeonRaider.211.rsp",
+		"directory": "D:\\Unreal\\UE_5.0\\Engine\\Source"
+	},
+	{
+		"file": "D:\\UnrealProject\\DungeonRaider\\DungeonRaider\\Source\\DungeonRaider\\TP_PickUpComponent.h",
+		"command": "\"C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\cl.exe\" @D:\\UnrealProject\\DungeonRaider\\DungeonRaider\\.vscode\\compileCommands_Default\\DungeonRaider.211.rsp",
+		"directory": "D:\\Unreal\\UE_5.0\\Engine\\Source"
+	},
+	{
+		"file": "D:\\UnrealProject\\DungeonRaider\\DungeonRaider\\Source\\DungeonRaider\\TP_WeaponComponent.cpp",
+		"command": "\"C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\cl.exe\" @D:\\UnrealProject\\DungeonRaider\\DungeonRaider\\.vscode\\compileCommands_Default\\DungeonRaider.211.rsp",
+		"directory": "D:\\Unreal\\UE_5.0\\Engine\\Source"
+	},
+	{
+		"file": "D:\\UnrealProject\\DungeonRaider\\DungeonRaider\\Source\\DungeonRaider\\TP_WeaponComponent.h",
+		"command": "\"C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\cl.exe\" @D:\\UnrealProject\\DungeonRaider\\DungeonRaider\\.vscode\\compileCommands_Default\\DungeonRaider.211.rsp",
+		"directory": "D:\\Unreal\\UE_5.0\\Engine\\Source"
+	}
+]

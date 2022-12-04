@@ -2,6 +2,10 @@
 
 
 #include "Grabber.h"
+#include "Components/SceneComponent.h"
+#include "Engine/World.h"
+#include "PhysicsEngine/PhysicsHandleComponent.h"
+
 
 UGrabber::UGrabber()
 {

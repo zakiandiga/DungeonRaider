@@ -2,6 +2,9 @@
 
 
 #include "Mover.h"
+#include "Components/ActorComponent.h"
+#include "Math/UnrealMathUtility.h"
+
 
 
 // Sets default values for this component's properties

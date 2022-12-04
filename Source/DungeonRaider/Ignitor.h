@@ -3,11 +3,8 @@
 #pragma once
 
 #include "CoreMinimal.h"
-#include "Components/ActorComponent.h"
-#include "Components/SceneComponent.h"
 #include "TriggeredAction.h"
 #include "Ignitor.generated.h"
-
 
 UCLASS( ClassGroup=(Custom), meta=(BlueprintSpawnableComponent) )
 class DUNGEONRAIDER_API UIgnitor : public UActorComponent, public ITriggeredAction

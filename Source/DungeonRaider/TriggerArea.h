@@ -4,11 +4,11 @@
 
 #include "CoreMinimal.h"
 #include "Components/BoxComponent.h"
-#include "GameFramework/Actor.h"
-#include "Mover.h"
+#include "TriggeredAction.h"
 #include "TriggerArea.generated.h"
 
 
+class UBoxComponent;
 UCLASS( ClassGroup=(Custom), meta=(BlueprintSpawnableComponent))
 class DUNGEONRAIDER_API UTriggerArea : public UBoxComponent
 {

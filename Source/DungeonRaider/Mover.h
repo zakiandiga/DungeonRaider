@@ -3,8 +3,6 @@
 #pragma once
 
 #include "CoreMinimal.h"
-#include "Components/ActorComponent.h"
-#include "Math/UnrealMathUtility.h"
 #include "TriggeredAction.h"
 #include "Mover.generated.h"
 

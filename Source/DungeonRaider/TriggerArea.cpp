@@ -1,4 +1,6 @@
 #include "TriggerArea.h"
+#include "GameFramework/Actor.h"
+#include "Mover.h"
 
 UTriggerArea::UTriggerArea()
 {

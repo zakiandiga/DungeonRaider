@@ -3,10 +3,6 @@
 #pragma once
 
 #include "CoreMinimal.h"
-#include "Components/SceneComponent.h"
-#include "Engine/World.h"
-#include "PhysicsEngine/PhysicsHandleComponent.h"
-#include "DrawDebugHelpers.h" //debug ray
 #include "Grabber.generated.h"
 
 
@@ -46,7 +42,7 @@ private:
 
 	AActor* GrabbedActor;
 
-	UPhysicsHandleComponent* PhysicsHandle;
+	class UPhysicsHandleComponent* PhysicsHandle;
 
 	UFUNCTION(BlueprintCallable)
 	void Grab();

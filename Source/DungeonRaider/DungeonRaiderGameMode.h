@@ -15,7 +15,7 @@ public:
 	ADungeonRaiderGameMode();
 
 protected:
-	virtual void BeginPlay() override;
+	//virtual void BeginPlay() override;
 
 private:
 

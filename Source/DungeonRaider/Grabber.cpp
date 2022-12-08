@@ -32,36 +32,34 @@ void UGrabber::TickComponent(float DeltaTime, ELevelTick TickType, FActorCompone
 
 void UGrabber::Grab()
 {
+	if (PhysicsHandle == nullptr || bIsGrabbingObject) return;
+
 	FHitResult HitResult;
 	bool HitSomething = GrabbableObjectInReach(HitResult);
 	
-	if(HitSomething && !bIsGrabbingObject)
-	{
-		GrabbedActor = HitResult.GetActor();
-		GrabbedActor->Tags.Add("AtHand");
+	if (!HitSomething) return;
+	
+	GrabbedActor = HitResult.GetActor();
+	GrabbedActor->Tags.Add("AtHand");
 
-		UPrimitiveComponent* HitComponent = HitResult.GetComponent();
-		if(PhysicsHandle)
-		{
-			HitComponent->SetSimulatePhysics(true);
-			HitComponent->WakeAllRigidBodies();
-			PhysicsHandle->GrabComponentAtLocationWithRotation(HitComponent, NAME_None, HitResult.ImpactPoint, GetComponentRotation());
+	UPrimitiveComponent* HitComponent = HitResult.GetComponent();
 
-			bIsGrabbingObject = true;
-		}
-	}
+	HitComponent->SetSimulatePhysics(true);
+	HitComponent->WakeAllRigidBodies();
+	PhysicsHandle->GrabComponentAtLocationWithRotation(HitComponent, NAME_None, HitResult.ImpactPoint, GetComponentRotation());
+
+	bIsGrabbingObject = true;	
 }
 
 void UGrabber::Drop()
 {
-	if(PhysicsHandle &&bIsGrabbingObject)
-	{
-		PhysicsHandle->GetGrabbedComponent()->WakeAllRigidBodies();
-		PhysicsHandle->ReleaseComponent();
-		GrabbedActor->Tags.Remove("AtHand");
-		GrabbedActor = nullptr;
-		bIsGrabbingObject = false;
-	}
+	if (PhysicsHandle && !bIsGrabbingObject) return;
+	
+	PhysicsHandle->GetGrabbedComponent()->WakeAllRigidBodies();
+	PhysicsHandle->ReleaseComponent();
+	GrabbedActor->Tags.Remove("AtHand");
+	GrabbedActor = nullptr;
+	bIsGrabbingObject = false;	
 }
 
 void UGrabber::MoveGrabbedObject()

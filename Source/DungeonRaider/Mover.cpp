@@ -75,7 +75,6 @@ FVector UMover::GetOpenedLocation()
 	return ClosedLocation + (MoveDirection * MoveDistance);
 }
 
-//Interface implementation
 void UMover::ActionToTrigger_Implementation(bool Value)
 {
 	CurrentMoveState = Value ? MoveState::OPENING : MoveState::CLOSING;

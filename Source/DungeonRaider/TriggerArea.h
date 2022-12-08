@@ -43,5 +43,5 @@ private:
 	AActor* AcceptableActor() const;
 
 	UFUNCTION()
-	void OverlapBegin(class UPrimitiveComponent* PrimitiveComponent, class AActor* Other, class UPrimitiveComponent* OtherComp, int32 OtherIndex, bool bFromSweep, const FHitResult& SweepResult);
+	void TriggerActionOnSetActor();
 };

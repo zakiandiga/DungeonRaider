@@ -25,12 +25,12 @@ public:
 
 	//Interface function
 	UFUNCTION(BlueprintNativeEvent, BlueprintCallable)
-	void ActionToTrigger(bool Value);
+	void ActionToTrigger(bool TriggerValue);
 
 	UFUNCTION(BlueprintCallable)
 	void AddToIgniteList(USceneComponent* ComponentsToAdd);
 
-	virtual void ActionToTrigger_Implementation(bool Value) override;
+	virtual void ActionToTrigger_Implementation(bool TriggerValue) override;
 
 private:
 

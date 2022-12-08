@@ -26,28 +26,13 @@ void UIgnitor::BeginPlay()
 void UIgnitor::TickComponent(float DeltaTime, ELevelTick TickType, FActorComponentTickFunction* ThisTickFunction)
 {
 	Super::TickComponent(DeltaTime, TickType, ThisTickFunction);
-
-
-
 }
 
 void UIgnitor::TurnVisible(bool ToVisible)
 {
 	for (USceneComponent* Component : ComponentsToIgnite)
 	{
-		Component->SetVisibility(true);
-		UE_LOG(LogTemp, Warning, TEXT("%s becomes visible"), *Component->GetReadableName());
-		
-	}
-}
-
-
-void UIgnitor::ActionToTrigger_Implementation(bool Value)
-{
-	if(Value && !bIsTurnedOn)
-	{
-		bIsTurnedOn = true;
-		TurnVisible(bIsTurnedOn);
+		Component->SetVisibility(true);		
 	}
 }
 
@@ -57,3 +42,10 @@ void UIgnitor::AddToIgniteList(USceneComponent* ComponentsToAdd)
 	
 }
 
+void UIgnitor::ActionToTrigger_Implementation(bool TriggerValue)
+{
+	if (!TriggerValue && bIsTurnedOn) return;
+	
+	bIsTurnedOn = true;
+	TurnVisible(bIsTurnedOn);
+}

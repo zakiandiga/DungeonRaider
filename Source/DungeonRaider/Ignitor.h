@@ -23,7 +23,6 @@ public:
 	// Called every frame
 	virtual void TickComponent(float DeltaTime, ELevelTick TickType, FActorComponentTickFunction* ThisTickFunction) override;
 
-	//Interface function
 	UFUNCTION(BlueprintNativeEvent, BlueprintCallable)
 	void ActionToTrigger(bool TriggerValue);
 

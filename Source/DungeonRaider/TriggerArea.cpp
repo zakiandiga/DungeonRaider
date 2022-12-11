@@ -23,8 +23,6 @@ void UTriggerArea::TickComponent(float DeltaTime, ELevelTick TickType, FActorCom
 	TriggerActionOnSetActor();	
 }
 
-
-
 AActor* UTriggerArea::AcceptableActor() const
 {
 	TArray<AActor*> OverlappingActors;

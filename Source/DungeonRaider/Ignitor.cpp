@@ -44,8 +44,9 @@ void UIgnitor::AddToIgniteList(USceneComponent* ComponentsToAdd)
 
 void UIgnitor::ActionToTrigger_Implementation(bool TriggerValue)
 {
-	if (!TriggerValue && bIsTurnedOn) return;
-	
+	if (!TriggerValue) return;
+	if (bIsTurnedOn) return;	
+
 	bIsTurnedOn = true;
 	TurnVisible(bIsTurnedOn);
 }
